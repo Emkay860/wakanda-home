@@ -1,0 +1,71 @@
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #05E800;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.extrabold {
+    font-weight: bolder;
+}
+
+.ms-n5 {
+    margin-left: -2.5rem !important;
+}
+
+.wkd-border-gradient {
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(to right, rgba(254, 222, 126, 1), rgba(254, 222, 126, 0));
+    border-image-slice: 1;
+}
+
+.wkd-border-gradient-right {
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(to left, rgba(254, 222, 126, 1), rgba(254, 222, 126, 0));
+    border-image-slice: 1;
+}
+
+.wakanda-description {
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    font-size: 1.3em;
+}
+
+.wakanda-header {
+    font-family: 'angasitalic', sans-serif;
+    font-size: 4rem;
+}
+
+.wakanda-dark {
+    background-color: #000000 !important;
+}
+
+.wakanda-yellow {
+    background-color: #F9A21B;
+}
+
+@media only screen and (max-width: 576px) {
+    .wakanda-header {
+        font-family: 'angasitalic', sans-serif;
+        font-size: 2.2rem;
+    }
+
+    .wakanda-description {
+        font-family: 'Inter', sans-serif;
+        font-style: italic;
+        font-size: 0.8em;
+    }
+}
+
+@font-face {
+    font-family: 'angasitalic';
+    src: url('fonts/angasitalic-1g6lm-webfont.woff2') format('woff2'),
+         url('fonts/angasitalic-1g6lm-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
