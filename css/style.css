@@ -15,6 +15,11 @@ h2 {
     border-bottom-left-radius: 1.5em;
 }
 
+.border-radius-end-lg {
+    border-top-right-radius: 1.5em;
+    border-bottom-right-radius: 1.5em;
+}
+
 .certik-logo {
     width: 127px;
     height: 30px;
@@ -48,6 +53,10 @@ h2 {
     color: #FEDE7E !important;
 }
 
+.transparent-white {
+    background-color: rgba(255, 255, 255, 0.53);
+}
+
 .wakanda-description {
     font-family: 'Inter', sans-serif;
     font-style: italic;
@@ -79,6 +88,10 @@ h2 {
     background-color: #1A1919;
 }
 
+.wakanda-light-yellow {
+    background-color: #FEDE7E;
+}
+
 .wakanda-yellow {
     background-color: #F9A21B;
 }
@@ -97,6 +110,14 @@ h2 {
     border-style: solid;
     border-image: linear-gradient(to left, rgba(254, 222, 126, 1), rgba(254, 222, 126, 0));
     border-image-slice: 1;
+}
+
+.negative-z-index {
+    z-index: -99;
+}
+
+.positive-z-index {
+    z-index: 1;
 }
 
 @media only screen and (max-width: 576px) {
