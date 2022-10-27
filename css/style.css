@@ -10,6 +10,11 @@ h2 {
     border-radius: 1.5em;
 }
 
+.border-radius-start-lg {
+    border-top-left-radius: 1.5em;
+    border-bottom-left-radius: 1.5em;
+}
+
 .certik-logo {
     width: 127px;
     height: 30px;
@@ -35,6 +40,10 @@ h2 {
     margin-left: -0.9rem;
 }
 
+.text-wakanda-light-yellow {
+    color: #FEDE7E;
+}
+
 .text-wakanda-yellow {
     color: #FEDE7E !important;
 }
@@ -52,6 +61,10 @@ h2 {
 
 .wakanda-dark {
     background-color: rgba(0, 0, 0, 0.93) !important;
+}
+
+.wakanda-dark-yellow {
+    background-color: #EE8C1F;
 }
 
 .wakanda-gray {
