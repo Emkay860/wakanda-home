@@ -42,7 +42,7 @@ h2 {
 }
 
 .marketplace-section {
-    background-image: url('../img/africaan-bg.svg'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-image: url('../img/africaan-bg.png'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
     background-blend-mode: overlay;
     max-height: 600px;
     background-repeat: no-repeat;
