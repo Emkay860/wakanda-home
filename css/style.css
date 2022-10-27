@@ -1,10 +1,18 @@
+h2 {
+    font-size: 3.75rem;
+}
+
 .border-bottom-dark {
     border-bottom: 4px solid #000000;
 }
 
+.border-radius-lg {
+    border-radius: 1.5em;
+}
+
 .certik-logo {
-    width: 147px;
-    height: 35px;
+    width: 127px;
+    height: 30px;
 }
 
 .dot {
@@ -19,8 +27,16 @@
     font-weight: bolder;
 }
 
+.text-small-2 {
+    font-size: 0.6rem;
+}
+
 .ms-n5 {
     margin-left: -2.5rem;
+}
+
+.ms-n3 {
+    margin-left: -0.9rem;
 }
 
 .text-wakanda-yellow {
@@ -39,7 +55,7 @@
 }
 
 .wakanda-dark {
-    background-color: #000000 !important;
+    background-color: rgba(0, 0, 0, 0.93) !important;
 }
 
 .wakanda-gray {
@@ -48,6 +64,10 @@
 
 .wakanda-gray-400 {
     background-color: #1E1E1E;
+}
+
+.wakanda-gray-600 {
+    background-color: #1A1919;
 }
 
 .wakanda-yellow {
@@ -71,15 +91,8 @@
 }
 
 @media only screen and (max-width: 576px) {
-    .wakanda-header {
-        font-family: 'angasitalic', sans-serif;
-        font-size: 2.2rem;
-    }
-
-    .wakanda-description {
-        font-family: 'Inter', sans-serif;
-        font-style: italic;
-        font-size: 0.8em;
+    h2 {
+        font-size: 3rem;
     }
 
     .certik-logo {
@@ -93,8 +106,23 @@
         display: inline-block;
     }
 
+    .hidden {
+        display: none;
+    }
+
     .text-small {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
+    }
+
+    .wakanda-header {
+        font-family: 'angasitalic', sans-serif;
+        font-size: 2.5rem;
+    }
+
+    .wakanda-description {
+        font-family: 'Inter', sans-serif;
+        font-style: italic;
+        font-size: 0.9em;
     }
 }
 
@@ -108,6 +136,10 @@
 
 .inter-font {
     font-family: 'Inter', sans-serif;
+}
+
+.poppins-font {
+    font-family: "Poppins", sans-serif;
 }
 
 @font-face {
