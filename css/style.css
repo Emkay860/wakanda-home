@@ -45,6 +45,12 @@ h2 {
     margin-left: -0.9rem;
 }
 
+.text-overflow-ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 .text-wakanda-light-yellow {
     color: #FEDE7E;
 }
