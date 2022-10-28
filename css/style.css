@@ -65,6 +65,14 @@ h2 {
     background-color: rgba(0, 0, 0, 0);
 }
 
+.navbar-toggler {
+    border: none;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url('../img/heroicons-solid_menu-alt-2.svg') ;
+}
+
 .quick-info-section {
     box-shadow: -1px 5px 5px 0px rgba(0,0,0,1);
     -webkit-box-shadow: -1px 5px 5px 0px rgba(0,0,0,1);
