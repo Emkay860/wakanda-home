@@ -54,7 +54,7 @@ h2 {
 }
 
 .marketplace-section {
-    background-image: url('../img/africaan-bg.png'), linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.9));
+    background-image: url('../img/africaan-bg.png'), linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9));
     background-blend-mode: overlay;
     max-height: 600px;
     background-repeat: no-repeat;
@@ -70,13 +70,18 @@ h2 {
 }
 
 .custom-toggler .navbar-toggler-icon {
-    background-image: url('../img/heroicons-solid_menu-alt-2.svg') ;
+    background-image: url('../img/heroicons-solid_menu-alt-2.svg');
 }
 
 .quick-info-section {
-    box-shadow: -1px 5px 5px 0px rgba(0,0,0,1);
-    -webkit-box-shadow: -1px 5px 5px 0px rgba(0,0,0,1);
-    -moz-box-shadow: -1px 5px 5px 0px rgba(0,0,0,1);
+    box-shadow: -1px 5px 5px 0px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: -1px 5px 5px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: -1px 5px 5px 0px rgba(0, 0, 0, 1);
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
 }
 
 .text-small-2 {
@@ -219,7 +224,7 @@ h2 {
 @font-face {
     font-family: 'angasitalic';
     src: url('fonts/angasitalic-1g6lm-webfont.woff2') format('woff2'),
-         url('fonts/angasitalic-1g6lm-webfont.woff') format('woff');
+        url('fonts/angasitalic-1g6lm-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -227,7 +232,7 @@ h2 {
 @font-face {
     font-family: 'givonic_demoregular';
     src: url('fonts/givonic/givonicdemo-2oy0x-webfont.woff2') format('woff2'),
-         url('fonts/givonic/givonicdemo-2oy0x-webfont.woff') format('woff');
+        url('fonts/givonic/givonicdemo-2oy0x-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
