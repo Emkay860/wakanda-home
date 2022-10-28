@@ -2,6 +2,14 @@ h2 {
     font-size: 3.75rem;
 }
 
+.border-bottom-yellow {
+    border-bottom: 10px solid #fede7e;
+}
+
+.border-right-yellow {
+    border-right: 8px solid #fede7e;
+}
+
 .border-bottom-dark {
     border-bottom: 4px solid #000000;
 }
@@ -46,6 +54,11 @@ h2 {
     background-blend-mode: overlay;
     max-height: 600px;
     background-repeat: no-repeat;
+}
+
+.media-section {
+    background-image: url('../img/panther-head.svg');
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .quick-info-section {
