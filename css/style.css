@@ -62,7 +62,8 @@ h2 {
 
 .media-section {
     background-image: url('../img/panther-head.svg');
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.1);
+    background-repeat: no-repeat;
 }
 
 .navbar-toggler {
