@@ -41,6 +41,10 @@ h2 {
     display: inline-block;
 }
 
+.footer-section {
+    background-image: url('../img/Wakandainu_footer_bg.png');
+}
+
 .ms-n5 {
     margin-left: -2.5rem;
 }
