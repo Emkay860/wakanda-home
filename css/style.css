@@ -91,6 +91,12 @@ h2 {
     border: none;
 }
 
+
+.navbar-padding {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
 .custom-toggler .navbar-toggler-icon {
     background-image: url('../img/heroicons-solid_menu-alt-2.svg');
 }
@@ -226,6 +232,11 @@ h2 {
 
     .hidden {
         display: none;
+    }
+
+    .navbar-padding {
+        padding-left: 1em;
+        padding-right: 1em;
     }
 
     .social-icons {
