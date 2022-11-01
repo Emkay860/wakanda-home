@@ -33,20 +33,28 @@ h2 {
     height: 30px;
 }
 
-.dot {
+/* .dot {
     height: 10px;
     width: 10px;
     background-color: #05E800;
     border-radius: 50%;
     display: inline-block;
-}
+} */
 
 .footer-section {
     background-image: url('../img/Wakandainu_footer_bg.png');
 }
 
+.dot {
+    color: #05E800;
+}
+
 .ms-n5 {
-    margin-left: -2.5rem;
+    margin-left: -1.5rem;
+}
+
+.ms-n4 {
+    margin-left: -1.2rem;
 }
 
 .ms-n3 {
@@ -56,6 +64,7 @@ h2 {
 .ms-n2 {
     margin-left: -0.7rem;
 }
+
 
 .marketplace-section {
     background-image: url('../img/africaan-bg.png'), linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9));
@@ -93,6 +102,10 @@ h2 {
     font-size: 0.6rem;
 }
 
+.text-20px {
+    font-size: 20px;
+}
+
 .text-overflow-ellipsis {
     white-space: nowrap;
     overflow: hidden;
@@ -115,6 +128,10 @@ h2 {
     width: 60%;
 }
 
+.w-10 {
+    width: 10%;
+}
+
 .wakanda-description {
     font-family: 'Inter', sans-serif;
     font-style: italic;
@@ -135,15 +152,15 @@ h2 {
 }
 
 .wakanda-gray {
-    background-color: #1A1919;
+    background-color: #1A1919 !important;
 }
 
 .wakanda-gray-400 {
-    background-color: #1E1E1E;
+    background-color: #1E1E1E !important;
 }
 
 .wakanda-gray-600 {
-    background-color: #1A1919;
+    background-color: #1A1919 !important;
 }
 
 .wakanda-light-yellow {
@@ -244,4 +261,63 @@ h2 {
         url('fonts/givonic/givonicdemo-2oy0x-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
+
+/* Gradient button with border-radius */
+
+.button {
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #00a84f;
+    display: block;
+    /* font: 1.125rem 'Oswald', Arial, sans-serif; */
+    /* 18 */
+    height: 40px;
+    letter-spacing: 1px;
+    padding: 1px;
+    position: relative;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    z-index: 2;
+}
+
+.left {
+    background-image: linear-gradient(to right, rgba(254, 222, 126, 1), rgba(254, 222, 126, 0));
+}
+
+.right {
+    background-image: linear-gradient(to left, rgba(254, 222, 126, 1), rgba(254, 222, 126, 0));
+}
+
+.left-right {
+    background-image: linear-gradient(to left, rgba(254, 222, 126, 1), rgba(254, 222, 126, 0), rgba(254, 222, 126, 1));
+}
+
+.button:hover {
+    color: #fff;
+}
+
+.button span {
+    align-items: center;
+    background: #221f1f;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    transition: background .5s ease;
+    width: 100%;
+}
+
+.button:hover span {
+    background: transparent;
+}
+
+.button .icon-img-left {
+    position: absolute;
+    left: -10px;
+}
+
+.button .icon-img-right {
+    position: absolute;
+    right: -10px;
 }
