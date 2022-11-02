@@ -214,6 +214,13 @@ h2 {
     z-index: 1;
 }
 
+@media only screen and (max-width: 320px) {
+    .wakanda-header {
+        font-family: 'angasitalic', sans-serif;
+        font-size: 2rem;
+    }
+}
+
 @media only screen and (max-width: 576px) {
     h2 {
         font-size: 3rem;
@@ -234,6 +241,11 @@ h2 {
         display: none;
     }
 
+    .header-section {
+        padding-left: 0.4em;
+        padding-right: 0.4em;
+    }
+
     .navbar-padding {
         padding-left: 1em;
         padding-right: 1em;
@@ -250,7 +262,7 @@ h2 {
 
     .wakanda-header {
         font-family: 'angasitalic', sans-serif;
-        font-size: 2.5rem;
+        font-size: 2.3rem;
     }
 
     .wakanda-description {
