@@ -18,9 +18,9 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-black py-2 navbar-padding">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black py-2 navbar-box-shadow">
         <div class="container-fluid px-0">
-            <a class="navbar-brand" href="#"> <img src="img/wakandainu-logo%201.svg" alt="" width="40" height="40"> </a>
+            <a class="navbar-brand" href="#"> <img src="img/wakandainu-logo%201.svg" alt="" width="50" height="50"> </a>
 
             <div class="navbar-toggler d-flex px-0">
                 <div class="d-lg-none">
@@ -55,7 +55,7 @@
                 </ul>
                 <div class="d-flex me-3">
                     <a class="btn btn-warning wakanda-yellow rounded-pill fw-bolder text-white"> <img
-                            src="img/wakandainu2-logo.svg" alt="wkd-logo" width="20" height="20">
+                            src="img/wakandainu2-logo.svg" alt="wkd-logo" width="30" height="30">
                         $WKD Swap </a>
                 </div>
             </div>
@@ -64,38 +64,38 @@
     </nav>
 
     <!-- Mobile menu -->
-    <div id="myNav" class="overlay">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <div class="overlay-content">
+    <div id="myNav" class="overlay d-flex flex-column justify-content-center">
+        <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">&times;</a>
+        <div class="content">
             <a href="#">Home</a>
             <a href="#">Ecosystem</a>
-            <a href="#">Governance</a>
+            <a href="#">Governance<img src="/img/arrow-link-out.svg" alt="governance-link" /></a>
             <a href="#">Community</a>
-            <a href="#">Buy/Sell $WKD</a>
-            <div class="d-flex justify-content-center">
-                <a class="btn btn-warning wakanda-yellow rounded-pill fw-bold text-white"> <img
-                        src="img/wakandainu2-logo.svg" alt="wkd-logo" width="25" height="25">
+            <a href="#">Buy/Sell $WKD<img src="/img/arrow-link-out.svg" alt="governance-link" /></a>
+            <div class="d-flex justify-content-center mt-5">
+                <a class="btn btn-warning wakanda-yellow rounded-pill fw-bold text-white swap-btn"> <img
+                        src="img/wakandainu2-logo.svg" alt="wkd-logo" width="40" height="40">
                     $WKD Swap </a>
             </div>
         </div>
     </div>
     <!-- Mobile menu end -->
-    <div class="container-fluid px-0">
-        <div class="row wakanda-dark  py-5 header-section">
-            <div class="col-sm-12 col-md-7 d-flex justify-content-center">
-                <div class="w-100 p-1 p-md-5 text-break">
-                    <h1 class="text-white text-center text-md-start wakanda-header my-5">WAKANDA INU</h1>
+    <div class="bg-black hero-div">
+        <div class="hero py-5">
+            <div class="col-sm-12 col-md-7 justify-content-center">
+                <div class="w-100 hero-text position-absolute">
+                    <h1 class="text-white text-center text-md-start wakanda-header">WAKANDA INU</h1>
                     <p class="text-white text-center text-md-start wakanda-description">
                         A decentralized charity-oriented meme token with the single purpose of revealing the best part
                         of being human. </p>
-                    <div class="row my-5 ms-0 d-flex justify-content-center justify-content-md-start">
+                    <div class="action row ms-0 d-flex justify-content-center justify-content-md-start">
                         <a class="button left col-5 col-md-5 col-lg-3 col- d-flex justify-content-start">
                             <span class="wakanda-gray text-small text-center inter-font text-white ps-4 py-2">
                                 <img class="icon-img-left mt-1 px-0 d-flex justify-content-end" style="z-index: 3"
                                     src="img/wakandainu-logo%201.svg" alt="wkd-logo" width="20" height="20">
                                 BUY $WKD </span>
                         </a>
-                        <div class="d-none d-lg-block col-lg-1"></div>
+                        <!-- <div class="d-none d-lg-block col-lg-1"></div> -->
                         <a class=" button right col-5 col-md-5 col-lg-3 d-flex justify-content-start">
                             <span class="wakanda-gray text-small inter-font text-white pe-4 py-2"> <span
                                     class="dot w-25 wakanda-gray">●</span>
@@ -108,48 +108,54 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-5 py-md-5 mt-md-5">
-                <img src="img/wakanda-inu-panther.svg" alt="wkd-panther" class="img-fluid" />
+            <div class="mascot">
+                <img src="img/wakanda-inu-panther.svg" alt="wkd-panther" class="panther" />
             </div>
         </div>
-        <div class="row wakanda-gray">
-            <div class="col-12 col-md-6 my-5 p-4 p-md-5 text-break">
-                <h2 class="text-white">
-                    Why <span class="angas-font text-wakanda-yellow"> $WKD </span> </h2>
-                <p class="text-white  wakanda-description givonic-font my-4">
-                    Built as a charity-oriented meme token that is completely for charity good across
-                    the globe. <span class="angas-font">WAKANDA INU </span> represents the best aspects of what it means
-                    to be alive
-                    and part of a community with a single purpose from the depth of humanity, and
-                    create a decentralized meme token for the African Inu. </p>
-                <div
-                    class="row wakanda-gray-400 border-bottom-dark rounded-bottom d-flex justify-content-center my-5 py-2">
-                    <div class="col-6 col-md-5 ">
-                        <span class="dot w-25 wakanda-gray">●</span>
-                        <span> <img src="img/certik-logotype-h-w.svg" alt="wkd-logo" class="certik-logo"></span>
+        <section class="wakanda-gray why-section">
+            <div class="why">
+                <div class="message">
+                    <div class="">
+                        <h2 class="text-white">
+                            Why <span class="angas-font text-wakanda-yellow"> $WKD </span> </h2>
+                        <p class="text-white givonic-font my-4">
+                            Built as a charity-oriented meme token that is completely for charity good across
+                            the globe. <span class="angas-font">WAKANDA INU </span> represents the best aspects of what it
+                            means
+                            to be alive
+                            and part of a community with a single purpose from the depth of humanity, and
+                            create a decentralized meme token for the African Inu. </p>
+                        <div
+                            class="row wakanda-gray-400 border-bottom-dark rounded-bottom d-flex justify-content-center py-2">
+                            <div class="col-6 col-md-5 d-flex justify-content-center align-items-center">
+                                <p class="dot w-25 wakanda-gray ">●</>
+                                <div> <img src="img/certik-logotype-h-w.svg" alt="wkd-logo" class="certik-logo"></div>
+                            </div>
+                            <div class="col-6 col-md-5 text-end"ß>
+                                <a class="button left text-white text-small"> <span class="wakanda-gray"> View Audit Report
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-6 col-md-5 text-end">
-                        <a class="button left text-white text-small"> <span class="wakanda-gray"> View Audit Report
-                            </span>
-                        </a>
+                </div>
+                <div class="spinning-logo hidden">
+                    <div class="d-flex justify-content-center">
+                        <img class="img-fluid" src="img/coin-image-tbg-2.png" alt="wkd-logo" width="300" height="300">
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 my-5 py-5 hidden">
-                <div class="d-flex justify-content-center">
-                    <img class="img-fluid" src="img/coin-image-tbg-2.png" alt="wkd-logo" width="300" height="300">
-                </div>
-            </div>
-        </div>
-        <div class="row wakanda-gray-600 pb-5">
-            <div class="row d-flex justify-content-center">
-                <div class="col-12 col-sm-7 col-md-6 pt-5">
+
+        </section>
+        <section class="section-stake wakanda-gray-600 pb-5">
+            <div class="d-flex justify-content-center">
+                <div class="stake-img">
                     <img class="img-fluid" src="img/DEX.WAKANDA.COM.svg" alt="wkd-logo">
                 </div>
-                <div class="col-12 col-sm-5 col-md-6 col-lg-5 py-5 mt-sm-5">
-                    <h2 class="text-white text-center text-sm-center text-md-end fw-bolder mt-sm-5">
-                        Stake, Earn <span class="inter-font text-wakanda-yellow"> $WKD </span> </h2>
-                    <p class="text-white text-center text-sm-center text-md-end wakanda-description "> <span
+                <div class="topic">
+                    <h2 class="text-white text-end fw-bolder">
+                        Stake, Earn <span class="inter-font text-wakanda-yellow angas-font"> $WKD </span> </h2>
+                    <p class="text-white text-center text-sm-center text-md-end"> <span
                             class="text-wakanda-yellow inter-font fw-bolder">WKD Swap</span> is the flagship products of
                         the <span class="text-wakanda-yellow angas-font fw-bolder">WAKANDA INU </span> ecosystem, it
                         offers you the option
@@ -244,7 +250,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <div class="row marketplace-section p-5">
             <div class="col-12 col-md-6 my-5 text-break">
                 <h2 class="text-white"> <span class="inter-font text-wakanda-yellow"> NFTs </span> Marketplace </h2>
