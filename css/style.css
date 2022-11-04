@@ -98,6 +98,10 @@ h2 {
     width: 75%;
 }
 
+.no-decoration {
+    text-decoration: none;
+}
+
 .hero>div {
     height: 650px;
     padding-top: 4rem;
