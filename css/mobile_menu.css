@@ -14,7 +14,7 @@
     text-align: center;
 }
 
-.overlay .content > a:not(:last-child) {
+.overlay .content>a:not(:last-child) {
     white-space: nowrap;
     padding: 8px;
     text-decoration: none;
@@ -37,7 +37,7 @@
     width: 30%;
 }
 
-.overlay > .close-btn {
+.overlay>.close-btn {
     text-decoration: none;
     font-size: 80px;
     font-weight: 400;
