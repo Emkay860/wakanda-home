@@ -339,9 +339,13 @@ h2 {
 
 @media only screen and (max-width: 1011px) {
     .mascot img {
-        top: 31rem;
-        left: 34%;
+        top: 33rem;
+        left: 25%;
         height: 30%;
+    }
+
+    .hero>div {
+        height: 750px;
     }
 }
 
