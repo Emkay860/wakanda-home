@@ -114,7 +114,7 @@ h2 {
 .mascot>img {
     position: absolute;
     right: 0;
-    top: 20rem;
+    top: 10rem;
 }
 
 .hero-text {
@@ -339,8 +339,9 @@ h2 {
 
 @media only screen and (max-width: 1011px) {
     .mascot img {
-        top: 28rem;
-        height: 45%;
+        top: 32rem;
+        left: 34%;
+        height: 60%;
     }
 }
 
