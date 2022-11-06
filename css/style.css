@@ -325,6 +325,7 @@ h2 {
         /* position: static; */
         height: 35%;
         top: 5rem;
+        right: 0%;
     }
 
     .wakanda-description {
@@ -340,7 +341,7 @@ h2 {
 @media only screen and (max-width: 1011px) {
     .mascot img {
         top: 33rem;
-        left: 25%;
+        right: 0%;
         height: 30%;
     }
 
@@ -402,7 +403,7 @@ h2 {
     .mascot>img {
         top: 30rem;
         height: 36%;
-        left: 7%;
+        right: 0%;
     }
 
     .section-stake {
