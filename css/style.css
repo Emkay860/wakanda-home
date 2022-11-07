@@ -178,7 +178,7 @@ h2 {
     width: 100%;
     align-items: center;
     justify-content: center;
-    background-image: url('../img/why-bg-image1.svg');
+    /* background-image: url('../img/why-bg-image1.svg'); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
@@ -317,6 +317,11 @@ h2 {
         padding-left: 8rem;
     }
 
+    .paddingX {
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -360,13 +365,20 @@ h2 {
         font-size: 3rem;
     }
 
+    .rotating-coin-bg {
+        background-image: url('../img/why-bg-image1.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 300px 450px;
+    }
+
     .why .message {
-        position: absolute;
-        display: flex;
+        /* position: absolute; */
+        /* display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        justify-content: center;
+        justify-content: center; */
         background-image: url('../img/why-bg-image1.svg');
         background-repeat: no-repeat;
         background-position: center;
@@ -378,13 +390,13 @@ h2 {
     }
 
     .why {
-        position: relative;
-        height: 300px;
+        /* position: relative; */
+        /* height: 300px; */
     }
 
     .why .message {
         margin: 0;
-        position: absolute;
+        /* position: absolute; */
     }
 
     .why .message>div {
