@@ -71,6 +71,10 @@ h2 {
     margin-left: -0.7rem;
 }
 
+.margin-bottom {
+    margin-bottom: 8rem;
+}
+
 
 .marketplace-section {
     background-image: url('../img/africaan-bg.png'), linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9));
