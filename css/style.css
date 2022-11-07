@@ -180,11 +180,12 @@ h2 {
     background-size: auto;
 }
 
-.section-stake {
+/* .section-stake {
     padding: 0 8rem;
-    /* height: 600px ; */
+    height: 600px ;
 }
 
+*/
 /* .section-stake .topic {
     width: 100%;
 } */
@@ -342,7 +343,7 @@ h2 {
     .mascot img {
         top: 33rem;
         right: 0%;
-        height: 30%;
+        height: 60%;
     }
 
     .hero>div {
@@ -402,7 +403,7 @@ h2 {
 
     .mascot>img {
         top: 30rem;
-        height: 36%;
+        height: 60%;
         right: 0%;
     }
 
